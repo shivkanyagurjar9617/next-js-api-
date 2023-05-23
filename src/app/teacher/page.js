@@ -14,7 +14,7 @@ export default async function Page() {
 
   return (
     <section className="col-6">
-      teacher page
+     <h1>Teacher Page</h1>
         {
           data.map((cv,idx,arr)=>{
             return <li key={idx}>{cv.name}{cv.email}</li>

@@ -15,7 +15,7 @@ export default async function Page() {
     console.log(data)
   return (
     <section className="col-6">
-        student route
+        <h1>Student Page</h1>
 
         <ul>
             {
